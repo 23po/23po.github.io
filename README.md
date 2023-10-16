@@ -2,22 +2,23 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Calvince Ochieng - Web Developer</title>
+    <title>Calvince Ochieng - Software Developer</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f0f0;
+            font-family: 'Roboto', 'Arial', sans-serif;
+            background-color: #121212;
+            color: #fff;
             text-align: center;
             margin: 0;
             padding: 0;
         }
         .header {
             background-color: #333;
-            color: white;
             padding: 40px 0;
         }
         .header h1 {
             font-size: 36px;
+            color: #00ffac;
         }
         .header p {
             font-size: 18px;
@@ -26,19 +27,19 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #222;
+            border: 1px solid #333;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         }
         h2 {
             font-size: 24px;
-            color: #333;
-            border-bottom: 2px solid #ccc;
+            color: #00ffac;
+            border-bottom: 2px solid #00ffac;
             padding-bottom: 10px;
         }
         p {
             font-size: 16px;
-            color: #444;
+            color: #fff;
         }
         ul {
             list-style: none;
@@ -46,13 +47,12 @@
         }
         ul li {
             font-size: 16px;
-            color: #444;
             padding: 10px 0;
-            border-bottom: 1px solid #ccc;
+            border-bottom: 1px solid #333;
         }
         a {
             text-decoration: none;
-            color: #0074e4;
+            color: #00ffac;
         }
         a:hover {
             text-decoration: underline;
@@ -83,3 +83,4 @@
     </div>
 </body>
 </html>
+
