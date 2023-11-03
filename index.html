@@ -3,11 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>ckodalo</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+    <img src="./assets/profilepic.jpg" alt="my profile picture" width="100" height="100" />
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+
+   <style>
+       html {
+        border: 10px solid blue;
+
+       }
+       body {
+            font-family:    Helvetica, Arial, "Century Gothic", Univers, sans-serif;
+            font-variant:   small-caps;
+            margin: 0; /* Remove the margin */
+            /* display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; */
+            height: 100vh;
+            border: 5px thin solid black;
+            padding:        0em 2em 1em 2em;
+  margin-top:     1.5em;
         }
+/* 
+        p { text-align:   left; }
+
+        hr { display:     none; } */
+
+
+
         h1 {
             color: #333;
         }
@@ -25,45 +48,54 @@
 <body>
     <header>
         <h1>Calvin Kodalo</h1>
-        <p>Welcome to my personal website</p>
-    </header>
+        <p>Welcome to my personal site</p>
 
-    <section id = "resume">
-        <h2>Resume</h2>
-        <a href="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=54d36f40e6&attid=0.1&permmsgid=msg-a:r-2507301260174858973&th=18b708fc882fc237&view=att&disp=inline&realattid=f_lo8fu0720&saddbat=ANGjdJ-f0md2kBt_JIc6dsGkA8s-H-dpQa71XarZ_aroXmz4gIE1QXsbRwp-IqNUCzVufVuxMps_sBH9WivIFuDqAV6Ub6X-7jbGLHAxjyjzKN_C873MZ48lMfrJfqYAHQJqod0Md1TbgLyad11gIZ9joIxO6hOEIS_clSPR9YPyH2CUiZLvirTiQo-3Tm-Q3SJa9ZPdnLlk8ocG-8BV4HSo32w0GNirt6CnZbxyd6EqBkKzfz1ATv4_MWm42oOafVqxdwNDFtw7S9JvAM5mzuNiB6uHCnmp11sYiv9JG5aUhusw3Acz2bOhXma6aP-XCem1efu8NlHaC4bkJKcUHuyWFXLetwbaf7CThv_5DtuiSakDmDrwLfkCpSo769yciT-6SOXey9HLcNU0BIsK2mXi6kceHJhemoSyxel5ZAGwSAawTMgJtbqQIJqsCBH4F-On923buG_cpLJZxHT_2g9BWxNDr0ZjXpaRewZWEsY88aaGABF5J5NqP3thVsepi3UBEFlulH-RlP69GFyOjgRr7sNPLomZxllsZLWWah3v5D-oQeAx3AjmavNbsq911EJLepAK5sSLuqTgiNu39koFH_Bbst7qNp5ZCPuIY9hi1yn0DpJ7QhcP6F5mhryERJv2FkRwZkuh1urOX_a6_Uw3URiHLKHEOETlUgjWtrUq0ngwbrtIiIQXbGrh-HWw3eEAlp2vZNByl6MEdQUEOisvehYkXQeuMMfO7qyH1SioVITucaIPDn1_qHMUQSotKF0iAN_N5_AJCOfTBFbwB7dg3p3TR96-qaHd1Toj2PbPe9zhejQEdk2aixzJhc69yVQV_V-bWinNbKgPyjPhxVPkqFpIU7plub-ySKy35xJhlN3RMrG5l-p5cpbKewDZ7CGioFnYL6N5BE5I75AXSvHtny9_PVcJHKf5lUBya0_ddbOsRXR4bzc_k-gx0qGHOBKzgDyMbw8yCHvrnYoEc_vlIXhL_x6828KofHCXarp10OOkYlScau9br3AW26A">Clicke to see my resume</a>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
         <ul>
-            <li><a href="project1.html">Project 1</a></li>
-            <li><a href="project2.html">Project 2</a></li>
-            <!-- Add more project links as needed -->
+            <li>
+               Github profile: <a href="https://github.com/ckodalo">ckodalo</a>
+            </li> 
+            <li>  
+               Resume': <a href="https://docs.google.com/document/d/1Wvohk4Ysmq5h_ntaIwqPySydT-P22EpR/edit?usp=sharing&ouid=114266833115568972625&rtpof=true&sd=true">Click here</a> 
+            </li>
+        </ul>
+    </header>
+    <section id="projects">
+        <h2>Some of my work</h2>
+        <ul>
+            <li>I'm currently learning Devops, try out this <a href="https://gallery-b5aiae2dnq-uc.a.run.app/">app</a> that I containerized with Docker then deployed to Google Cloud Run</li>
         </ul>
     </section>
 
+
     <section id="skills">
-        <h2>Skills</h2>
+        <h2>Tools and Technical Competencies</h2>
         <table>
             <tr>
                 <th>Languages</th>
-                <th>Java, Javascript, Ruby</th>
+                <td>Javascript, Java, Ruby</td>
             </tr>
             <tr>
-                <td>Frameworks</td>
-                <td>Spring, Rails, React, Angular</td>
+                <th>Frameworks</th>
+                <td>Rails, React, Spring, Angular</td>
             </tr>
             <tr>
-                <td>Data Storage</td>
-                <td>MySQl</td>
+                <th>Devops and Cloud</th>
+                <td>Jenkins, Docker, GCP, Ansible, Kubernettes</td>
             </tr>
             <tr>
-                <td>Cloud and Devops</td>
-                <td>Jenkins, Docker, Ansible, Kubernettes</td>
+                <th>Database Management</th>
+                <td>MySQL, Mongo</td>
             </tr>
-            <!-- Add more rows for your skills -->
+            <tr>
+                <th>Requirements Management</th>
+                <td>Slack, Teams, Trello, Jira</td>
+            </tr>
+            
+            
         </table>
     </section>
+
+    <hr>
 
     <footer>
         <p>&copy; 2023 Calvin Kodalo</p>
